@@ -23,35 +23,35 @@ const FOOTER_LINKS = {
     links: [
       { label: 'About Us', href: '/about' },
       { label: 'Companies', href: '/companies' },
-      { label: 'Careers', href: '#' },
-      { label: 'Blog', href: '#' },
+      { label: 'Careers', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Blog', href: 'https://app.trabahanap.dev/login' },
     ],
   },
   resources: {
     title: 'Resources',
     links: [
-      { label: 'Help Center', href: '#' },
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Contact', href: '#' },
+      { label: 'Help Center', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Privacy Policy', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Terms of Service', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Contact', href: 'https://app.trabahanap.dev/login' },
     ],
   },
   forJobSeekers: {
     title: 'For Job Seekers',
     links: [
-      { label: 'Browse Jobs', href: 'https://app.trabahanap.com/find-jobs' },
-      { label: 'Career Advice', href: '#' },
-      { label: 'Resume Tips', href: '#' },
-      { label: 'Salary Guide', href: '#' },
+      { label: 'Browse Jobs', href: 'https://app.trabahanap.dev/find-jobs' },
+      { label: 'Career Advice', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Resume Tips', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Salary Guide', href: 'https://app.trabahanap.dev/login' },
     ],
   },
   forEmployers: {
     title: 'For Employers',
     links: [
-      { label: 'Post a Job', href: 'https://app.trabahanap.com/employer/post-job' },
-      { label: 'Pricing', href: '#' },
-      { label: 'Employer Resources', href: '#' },
-      { label: 'Partner With Us', href: '#' },
+      { label: 'Post a Job', href: 'https://app.trabahanap.dev/employer/post-job' },
+      { label: 'Pricing', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Employer Resources', href: 'https://app.trabahanap.dev/login' },
+      { label: 'Partner With Us', href: 'https://app.trabahanap.dev/login' },
     ],
   },
 };
@@ -143,13 +143,13 @@ const Footer = () => {
             © {new Date().getFullYear()} TrabaHanap. All rights reserved.
           </Text>
           <HStack spacing={6}>
-            <Link fontSize="sm" _hover={{ color: linkHoverColor }}>
+            <Link href="https://app.trabahanap.dev/login" fontSize="sm" _hover={{ color: linkHoverColor }}>
               Privacy Policy
             </Link>
-            <Link fontSize="sm" _hover={{ color: linkHoverColor }}>
+            <Link href="https://app.trabahanap.dev/login" fontSize="sm" _hover={{ color: linkHoverColor }}>
               Terms of Service
             </Link>
-            <Link fontSize="sm" _hover={{ color: linkHoverColor }}>
+            <Link href="https://app.trabahanap.dev/login" fontSize="sm" _hover={{ color: linkHoverColor }}>
               Cookie Policy
             </Link>
           </HStack>
