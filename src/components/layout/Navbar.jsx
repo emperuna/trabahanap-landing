@@ -117,7 +117,7 @@ const Navbar = () => {
               {/* Auth Buttons - External links to main app */}
               <Button
                 as="a"
-                href="https://app.trabahanap.com/login"
+                href="https://app.trabahanap.dev/login"
                 variant="ghost"
                 color={subTextColor}
                 fontWeight="600"
@@ -135,7 +135,7 @@ const Navbar = () => {
               </Button>
               <Button
                 as="a"
-                href="https://app.trabahanap.com/register"
+                href="https://app.trabahanap.dev/register"
                 h={10}
                 px={6}
                 colorScheme="blue"
@@ -250,7 +250,7 @@ const Navbar = () => {
               <VStack spacing={3}>
                 <Button 
                   as="a"
-                  href="https://app.trabahanap.com/login"
+                  href="https://app.trabahanap.dev/login"
                   variant="ghost"
                   color={subTextColor}
                   fontWeight="600"
@@ -268,7 +268,7 @@ const Navbar = () => {
                 
                 <Button 
                   as="a"
-                  href="https://app.trabahanap.com/register"
+                  href="https://app.trabahanap.dev/register"
                   h={14}
                   w="full"
                   colorScheme="blue"
